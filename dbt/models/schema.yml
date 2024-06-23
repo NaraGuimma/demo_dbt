@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: DEMO_DBT
+    schema: PUBLIC
+    tables:
+      - name: lista_trabalhos
+        description: "Lista de trabalhos remotos"
+        columns:
+          - name: id
+            description: "Unique Job ID"
+            data_tests:
+              - unique
+          - name: url
+            description: "Job link"
+          - name: jobTitle
+            description: "Job title"
+          - name: companyName
+            description: "Company name"
+          - name: companyLogo
+            description: "Company logo link"
+          - name: jobIndustry
+            description: "Job function (industry)"
+          - name: jobType
+            description: "Job type (full-time, contract, part-time or internship)"
+          - name: jobGeo
+            description: "Geographic restriction for employment (or Anywhere if not applicable)"
+          - name: jobLevel
+            description: "Seniority level (or Any if not applicable)"
+          - name: jobExcerpt
+            description: "Excerpt job description (max 55 characters)"
+          - name: jobDescription
+            description: "Full job description (HTML)"
+          - name: pubDate
+            description: "Publication date and time (UTC+00:00)"
+          - name: annualSalaryMin
+            description: "Annual min salary (if applicable)"
+          - name: annualSalaryMax
+            description: "Annual max salary (if applicable)"
+          - name: salaryCurrency
+            description: "ISO 4217 salary currency code (if applicable)"
