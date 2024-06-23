@@ -1,0 +1,1 @@
+{"_invocation_id": "c784fcf1-37d2-465e-9ba6-5c209461b121", "linked": {"0": {"name": "source.demo_dbt.DEMO_DBT.lista_trabalhos", "type": "source", "succ": [1, 2]}, "1": {"name": "test.demo_dbt.source_unique_DEMO_DBT_lista_trabalhos_id.baeeec2e27", "type": "test"}, "2": {"name": "model.demo_dbt.trabalhos_remotos_final", "type": "model"}}}
