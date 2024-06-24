@@ -15,11 +15,6 @@ dbt é uma ferramenta de transformação de dados que permite aos profissionais 
 Saiba mais sobre o dbt:
 - [Documentação do dbt](https://docs.getdbt.com/docs/introduction)
 
-Instalação do dbt:
-- [Com pip](https://docs.getdbt.com/docs/core/pip-install)
-- [Clone do código fonte](https://docs.getdbt.com/docs/core/source-install)
-- [Via docker](https://docs.getdbt.com/docs/core/docker-install)
-
 ### Snowflake
 
 Snowflake é um data warehouse como serviço (DWaaS) que oferece uma solução de armazenamento de dados escalável e altamente performática. Ele permite a realização de consultas analíticas de forma rápida e eficiente.
@@ -39,6 +34,9 @@ Para saber mais:
 - Python 3.x
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [dbt Core](https://docs.getdbt.com/dbt-cli/install/overview)
+    - [Com pip](https://docs.getdbt.com/docs/core/pip-install)
+    - [Clone do código fonte](https://docs.getdbt.com/docs/core/source-install)
+    - [Via docker](https://docs.getdbt.com/docs/core/docker-install)
 - Conta trial do Snowflake: [Inscreva-se aqui](https://signup.snowflake.com/)
 
 
